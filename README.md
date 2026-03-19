@@ -44,3 +44,6 @@ As entregas parciais e finais estão organizadas por atividade na pasta `docs/`.
 
 ## 🧩 Metodologia
 Aprendizagem Baseada em Problemas (PBL), com foco no desenvolvimento de competências em qualidade de software.
+
+
+# As descriçoes dos commits são feitas baseadas em versões
