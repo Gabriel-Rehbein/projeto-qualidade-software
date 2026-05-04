@@ -1,15 +1,18 @@
-# 🚧 Em Desenvolvimento
-
-<p align="center">
-  <img src="https://img.shields.io/badge/SenacRS-ADS-blue?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Semestre-6º-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge">
-</p>
+# 📸 Evidências de Testes – LocalEats
 
 ---
 
-## 👨‍💻 Autor
+## 🔹 Ambiente de Execução
 
-Gabriel Menezes Rehbein - Matrícula: **842000137**
+- Linguagem: Python
+- Framework de teste: pytest
+- Sistema: LocalEats (regra de cálculo de pedido)
 
 ---
+
+## 🔹 Execução dos Testes
+
+### Comando utilizado:
+
+```bash
+pytest -v
