@@ -184,7 +184,71 @@ Organizar a automação utilizando boas práticas.
         └── evidencias/
 
 
-🔹 5. Execução dos testesExecutar: pytest👉 Informar: Total de cenários, quantos passaram, quantos falharam.👉 Registrar: Evidência da execução (Prints ou logs).🔹 6. Análise críticaResponder:O cenário escrito ficou compreensível?O teste automatizado ficou legível?O BDD ajudou a entender o comportamento?Quais dificuldades surgiram?Os seletores foram frágeis?O teste ficou dependente da interface?O cenário representa realmente uma regra de negócio?O que tornaria o teste mais robusto?🔹 7. Reflexão no contexto do LocalEatsResponder:BDD melhora comunicação entre equipe?Todo teste deve ser escrito em BDD?Quando vale a pena usar BDD?O comportamento ficou mais claro?Como isso ajuda no projeto do grupo?📦 EntregávelFormato: arquivo Markdown (.md)Entrega: repositório do grupo no GitHub /aula-12-bdd-automacao-comportamento.md👉 Trabalho individual ou em grupo (até 4 integrantes)📎 Exemplo: https://github.com/lucianozanuz/pbl-qualidade-software-2026-1/blob/main/pbl/aula-12-bdd-automacao-comportamento.md📊 Avaliação (Rubrica – Unisenac-RS)ConceitoDescrição🔴 D — Não atingiuCenários incompletos / Estrutura Gherkin incorreta / Automação não executa🟡 C — ParcialCenários pouco claros / Automação parcial / Pouca organização🔵 B — PlenoCenários corretos / Automação funcional / Boa separação Given-When-Then🟢 A — ExcelênciaCenários claros e legíveis / Boa representação de regras de negócio / Código organizado / Assertions relevantes / Boa integração pytest-bdd + Playwright / Automação robusta / Excelente análise crítica💡 Dica finalPara obter conceito A, vocês devem:Escrever cenários pensando no negócioEvitar detalhes excessivamente técnicosCriar automações legíveisUsar bons seletoresOrganizar corretamente o projetoPensar em manutenção futura👉 Mentalidade esperada: > “Uma pessoa não técnica conseguiria entender o comportamento descrito?”
+🔹 5. Execução dos testes
+
+- Executar: `pytest`
+- Informar: total de cenários, quantos passaram e quantos falharam.
+- Registrar: evidência da execução (prints ou logs).
+
+🔹 6. Análise crítica
+
+Responder:
+
+- O cenário escrito ficou compreensível?
+- O teste automatizado ficou legível?
+- O BDD ajudou a entender o comportamento?
+- Quais dificuldades surgiram?
+- Os seletores foram frágeis?
+- O teste ficou dependente da interface?
+- O cenário representa realmente uma regra de negócio?
+- O que tornaria o teste mais robusto?
+
+🔹 7. Reflexão no contexto do LocalEats
+
+Responder:
+
+- O BDD melhora a comunicação entre a equipe?
+- Todo teste deve ser escrito em BDD?
+- Quando vale a pena usar BDD?
+- O comportamento ficou mais claro?
+- Como isso ajuda no projeto do grupo?
+
+## 📦 Entregável
+
+**Formato:** arquivo Markdown `.md`  
+**Entrega:** repositório do grupo no GitHub  
+
+- `/aula-12-bdd-automacao-comportamento.md`
+
+Trabalho individual ou em grupo (até 4 integrantes)
+
+📎 Exemplo:
+
+https://github.com/lucianozanuz/pbl-qualidade-software-2026-1/blob/main/pbl/aula-12-bdd-automacao-comportamento.md
+
+## 📊 Avaliação (Rubrica – Unisenac-RS)
+
+| Conceito | Descrição |
+| --- | --- |
+| 🔴 D — Não atingiu | Cenários incompletos / Estrutura Gherkin incorreta / Automação não executa |
+| 🟡 C — Parcial | Cenários pouco claros / Automação parcial / Pouca organização |
+| 🔵 B — Pleno | Cenários corretos / Automação funcional / Boa separação Given-When-Then |
+| 🟢 A — Excelência | Cenários claros e legíveis / Boa representação de regras de negócio / Código organizado / Assertions relevantes / Boa integração pytest-bdd + Playwright / Automação robusta / Excelente análise crítica |
+
+### 💡 Dica final
+
+Para obter conceito A, vocês devem:
+
+- Escrever cenários pensando no negócio;
+- Evitar detalhes excessivamente técnicos;
+- Criar automações legíveis;
+- Usar bons seletores;
+- Organizar corretamente o projeto;
+- Pensar em manutenção futura.
+
+👉 Mentalidade esperada:
+
+> “Uma pessoa não técnica conseguiria entender o comportamento descrito?”
 
 
 ---
